@@ -1,0 +1,27 @@
+= ihackernews_monkey
+
+Little gem to show a piece of my coding style
+
+= Install
+
+Just build the gem and do a gem install !
+
+gem build ihackernews.gemspec && sudo gem install ihackernews
+
+= Use
+
+You will be able to find an example of a working app in examples/sample_app.rb
+
+= Known issues
+
+- The app shows an UTF-8 encoding warning, nothing important to care about.
+- The API of http://ihackernews.com is not working well, and throws Server Errors
+each 3-4 requests.
+
+= Tests
+
+Few tests in test/test_ihackernews.rb
+
+= Author
+
+Hervé Tatche
